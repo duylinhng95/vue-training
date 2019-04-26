@@ -5,6 +5,7 @@ import routes from "./routes";
 import 'vuetify/dist/vuetify.min.css';
 import 'vuetify/src/stylus/app.styl';
 import '@fortawesome/fontawesome-free/css/all.css'
+import './main.styl'
 
 Vue.use(VueRouter);
 Vue.use(VueTify, {iconfont: 'fa'});

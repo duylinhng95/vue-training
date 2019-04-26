@@ -1,16 +1,18 @@
 <template>
-    <div>
+    <v-app>
         <navigation-bar></navigation-bar>
-    </div>
+        <banner></banner>
+    </v-app>
 </template>
 
 <script>
 	import NavigationBar from "./Layouts/NavigationBar"
-
+    import Banner from "./HomePage/Banner"
 	export default {
 		name: "Home",
 		components: {
-			NavigationBar
+			NavigationBar,
+            Banner
 		}
 	}
 </script>
